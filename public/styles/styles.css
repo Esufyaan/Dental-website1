@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Set a blue background for the entire page */
+body {
+    background-color: #007bff; /* Blue color */
+    color: #ffffff; /* White text color for better contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #004080; /* Darker blue for the header */
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Home content section with columns */
+.home-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.home-content div {
+    background-color: #ffffff; /* White background for content blocks */
+    color: #000000; /* Black text color */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    flex: 1 1 30%; /* Adjust the width to 30% of the container */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    background-color: #004080; /* Darker blue for the footer */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
